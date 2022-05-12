@@ -1,32 +1,3 @@
-#!/Users/ladmin/Desktop/webscraping/env/bin/python3
-#
-# Copyright 2015 Google Inc. All Rights Reserved.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
-"""A server to hand out network ports to applications running on one host.
-
-Typical usage:
- 1) Run one instance of this process on each of your unittest farm hosts.
- 2) Set the PORTSERVER_ADDRESS environment variable in your test runner
-    environment to let the portpicker library know to use a port server
-    rather than attempt to find ports on its own.
-
-$ /path/to/portserver.py &
-$ export PORTSERVER_ADDRESS=@unittest-portserver
-$ # ... launch a bunch of unittest runners using portpicker ...
-"""
-
 import argparse
 import asyncio
 import collections
@@ -36,7 +7,7 @@ import signal
 import socket
 import sys
 
-log = None  # Initialized to a logging.Logger by _configure_logging().
+log = None  
 
 _PROTOS = [(socket.SOCK_STREAM, socket.IPPROTO_TCP),
            (socket.SOCK_DGRAM, socket.IPPROTO_UDP)]
