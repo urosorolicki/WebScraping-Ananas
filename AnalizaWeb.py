@@ -12,4 +12,9 @@ url = 'https://developer.ananas.rs'
 result = urllib.request.urlopen('https://api.stage.ananastest.com/product/api/v1/merchant-integration/import'
                                 .format(url)).read().decode('UTF-8')
 
+
+res = requests.get('https://ananas.rs')
+
+print(res.text)
+print(res.status_code)
 print(result)
