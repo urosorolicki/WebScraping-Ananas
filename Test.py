@@ -10,16 +10,16 @@ soup = BeautifulSoup(page.content, 'html.parser')
 
 all_products = [4]
 keys = (4)
-range = (1000)
+range = ()
 products = soup.select('div.thumbnail')
 for product in products:
     # TODO: Work, Done
     print("csv.writer")
-product = ["Size", "Weight", "/", "/"]
+# product = ["Size", "Weight", "/", "/"]
 
-for product in range(1000):
-    print(product)
-    print(products[product])
+# for product in range():
+#     print(product)
+#     print(products[product])
 
 keys = all_products[4].keys(4)
 range = (1000)
