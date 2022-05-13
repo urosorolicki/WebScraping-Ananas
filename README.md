@@ -1,6 +1,6 @@
 # WebScraping-Ananas
 
-Basically web analizer, sends requests to <a href="https//ananas.rs/"a> and gathers much needed data for futher analysis.
+Basically web analizer, sends requests to <a href="https://ananas.rs">and gathers much needed data for futher analysis.</a> and gathers much needed data for futher analysis.
 
 # How to use it for your website
 
