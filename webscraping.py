@@ -8,7 +8,7 @@ ipaddress = []
 prices = []
 ratings = []
 driver.get(
-    "<a href="">https://ananas.rs/")
+    "<a href="">https://developer.portal.rs")
 
 content = driver.page_source
 soup = BeautifulSoup(content)
