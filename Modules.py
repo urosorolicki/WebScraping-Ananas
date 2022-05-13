@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import chart_studio
 from google2pandas import *
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -13,8 +14,11 @@ from scipy import stats
 import matplotlib.patches as mpatches
 import plotly
 import reload
-import plotly.plotly as py
+import chart_studio.plotly as py
+from chart_studio import plotly
 from IPython.display import Image
+import plotly.offline as pyoff
+import plotly.graph_objs as go
 from plotly import tools
 from plotly.graph_objs import *
 
@@ -24,7 +28,11 @@ Image("Fig1.png")
 Image("Fig2.png")
 Image("Fig3.png")
 df1 = []
-
+chart_studio.tools.set_config_file(
+    plotly_domain='https://ananas.rs',
+    plotly_api_domain='https://ananas.rs',
+    plotly_streaming_domain='https://ananas.rs'
+)
 conn = GoogleAnalyticsQuery(secrets='/your-directory/ga-creds/client_secret.json',
                             token_file_name='/your-directory/ga-creds/analytics.dat')
 
