@@ -12,6 +12,7 @@ from mpl_toolkits.basemap import Basemap
 from scipy import stats
 import matplotlib.patches as mpatches
 import plotly
+import reload
 import plotly.plotly as py
 from IPython.display import Image
 from plotly import tools
