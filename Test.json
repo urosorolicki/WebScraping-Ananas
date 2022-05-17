@@ -1,18 +1,26 @@
-
-"id":"42012",
-        "name":"Oprema za fudbal"
-        ,"slug":"sport-i-rekreacija/oprema-za-fudbal"
-        ,"children":[{"id":531414,"name":"Dresovi za fudbal",
-"slug":"sport-i-rekreacija/oprema-za-fudbal/dresovi-za-fudbal","children":[]
-}
-,{"id":531424,"name":"Ostala oprema zafudbal",
-    "slug":"sport-i-rekreacija/oprema-za-fudbal/ostala-oprema-za-fudbal",
-    "children":[]},{"id":48304,
+"id": "42012",
+"name": "Oprema za fudbal",
+"slug": "sport-i-rekreacija/oprema-za-fudbal",
+"children": [
+    {
+        "id": 531414,
+        "name": "Dresovi za fudbal",
+        "slug": "sport-i-rekreacija/oprema-za-fudbal/dresovi-za-fudbal",
+        "children": []
+    },
+    {
+        "id": 531424,
+        "name": "Ostala oprema zafudbal",
+        "slug": "sport-i-rekreacija/oprema-za-fudbal/ostala-oprema-za-fudbal",
+        "children": []
+    },
+    {
+        "id": 48304,
         "name":"Patike
 =======
 
         "48279"
-        "name":"Oprema"
+        "name": "Oprema"
 za fudbal","slug":"sport-i-rekreacija/oprema-za-fudbal","children":[{"id":531414,"name":"Dresovi za
 fudbal","slug":"sport-i-rekreacija/oprema-za-fudbal/dresovi-za-fudbal","children":[]},{"id":531424,"name":"Ostala oprema
 za
@@ -1455,4 +1463,3 @@ kupovinu","metaDescription":null,"canonicalUrl":null,"metaRobotsIndex":null,"met
                                                                                                                         ],
                                                                                                                         "defaultLocale": "sr",
                                                                                                                         "scriptLoader": []
-                                                                                                            

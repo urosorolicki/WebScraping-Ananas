@@ -9,7 +9,7 @@ for x in range(2000, 3000):
     print('ID', x, sep=':')
 
 
-def write_file('res, op2.csv'):
+def write_file(res, op2.csv):
     with open(op2.csv, 'wb') as outfile:
 
 
