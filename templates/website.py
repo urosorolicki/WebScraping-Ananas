@@ -91,3 +91,4 @@ class Website():
 
             if not self.follow_links:
                 break
+

@@ -1,0 +1,24 @@
+{
+  "name": "simpenodeserver",
+  "version": "1.0.0",
+  "description": "Basically web analizer, sends requests to website for example: <a href=\"https://ananas.rs\">and gathers much needed data for futher analysis.</a> and gathers much needed data for futher analysis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urosorolicki/WebScraping-Ananas.git"
+  },
+  "author": "Uros Orolicki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/urosorolicki/WebScraping-Ananas/issues"
+  },
+  "homepage": "https://github.com/urosorolicki/WebScraping-Ananas#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jshint": "^2.13.4"
+  },
+  "devDependencies": {}
+}
