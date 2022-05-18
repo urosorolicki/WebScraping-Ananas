@@ -16,7 +16,7 @@ def main(args=None):
 
         arg_parser = argparse.ArgumentParser()
 
-        arg_parser.add_argument('site', help='https://ananas.rs/')
+        arg_parser.add_argument('site', help='https://ananas.rs/' , default = 'site')
         arg_parser.add_argument('-s', '--sitemap', help='https://ananas.rs/robots.txt')
         arg_parser.add_argument('-f', '--output-format', help='json', choices=['json', 'html', ],
                                 default='json')
