@@ -1,11 +1,12 @@
 {
-  "name": "simpenodeserver",
-  "version": "1.0.0",
+  "name": "seoanalizer",
+  "version": "1.2.0",
   "description": "Basically web analizer, sends requests to website for example: <a href=\"https://ananas.rs\">and gathers much needed data for futher analysis.</a> and gathers much needed data for futher analysis.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/urosorolicki/WebScraping-Ananas.git"
@@ -20,5 +21,9 @@
     "express": "^4.18.1",
     "jshint": "^2.13.4"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "keywords": [
+    "#seoanalizer"
+  ]
+  
 }
