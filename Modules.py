@@ -24,16 +24,16 @@ from plotly.graph_objs import *
 
 url = 'https://raw.githubusercontent.com/RRighart/GA/master/df1.csv'
 df1 = pd.read_csv(url, parse_dates=True, delimiter=",", decimal=",")
-Image("Fig1.png")
-Image("Fig2.png")
-Image("Fig3.png")
+# Image("Fig1.png")
+# Image("Fig2.png")
+# Image("Fig3.png")
 df1 = []
 chart_studio.tools.set_config_file(
     plotly_domain='https://ananas.rs',
     plotly_api_domain='https://ananas.rs',
     plotly_streaming_domain='https://ananas.rs'
 )
-conn = GoogleAnalyticsQuery(secrets='/your-directory/ga-creds/client_secret.json',
+conn = GoogleAnalyticsQuery(secrets='/Users/ladmin/Downloads/Google-Search-Console-bulk-query-master/client_secrets.json',
                             token_file_name='/your-directory/ga-creds/analytics.dat')
 
 query = {
@@ -62,8 +62,8 @@ plt.ylabel('Number of sessions')
 plt.show()
 df2 = []
 
-conn = GoogleAnalyticsQuery(secrets='/your-directory/ga-creds/client_secret.json',
-                            token_file_name='/your-directory/ga-creds/analytics.dat')
+conn = GoogleAnalyticsQuery(secrets='/Users/ladmin/Downloads/Google-Search-Console-bulk-query-master/client_secrets.json',
+                            token_file_name='/Users/ladmin/Downloads/Google-Search-Console-bulk-query-master.dat')
 
 query = {
     'ids': '999999999',
@@ -145,7 +145,7 @@ ax1.set_yticklabels(ndd.sort_values(
 plt.show()
 df3 = []
 
-conn = GoogleAnalyticsQuery(secrets='/your-directory/ga-creds/client_secret.json',
+conn = GoogleAnalyticsQuery(secrets='/Users/ladmin/Downloads/Google-Search-Console-bulk-query-master/client_secrets.json',
                             token_file_name='/your-directory/ga-creds/analytics.dat')
 
 query = {
@@ -170,7 +170,7 @@ fig = {
 py.iplot(fig)
 df3a = []
 
-conn = GoogleAnalyticsQuery(secrets='/your-directory/ga-creds/client_secret.json',
+conn = GoogleAnalyticsQuery(secrets='/Users/ladmin/Downloads/Google-Search-Console-bulk-query-master/client_secrets.json',
                             token_file_name='/your-directory/ga-creds/analytics.dat')
 
 query = {
@@ -186,7 +186,7 @@ df3a, metadata = conn.execute_query(**query)
 
 df3b = []
 
-conn = GoogleAnalyticsQuery(secrets='/your-directory/ga-creds/client_secret.json',
+conn = GoogleAnalyticsQuery(secrets='/Users/ladmin/Downloads/Google-Search-Console-bulk-query-master/client_secrets.json',
                             token_file_name='/your-directory/ga-creds/analytics.dat')
 
 query = {
